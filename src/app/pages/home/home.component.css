@@ -1,0 +1,421 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #f4f4f4;
+}
+
+.top-rectangle {
+    width: 55%;
+    height: 30%;
+    background-color: #DF6D14;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+}
+
+.bottom-rectangle {
+    width: 55%;
+    height: 65%;
+    background-color: #1D1E17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+.AddCtgry{
+    width: 13px;
+    height: 13px;
+}
+.btn {
+    width: 145%;
+    height: 50px;
+    padding: 12px 25px;
+    background-color: #3A7D44;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #56325E;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+ul {
+    padding: 20px;
+    list-style-type: none;
+    display: grid;
+}
+
+li {
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.6);
+}
+
+.btn:disabled {
+    background-color: #d6d6d6;
+    cursor: not-allowed;
+}
+
+.button-rectangle {
+    position: absolute;
+    top: 2%;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.right-rectangle {
+    position: absolute;
+    top: 10%;
+    right: 20px;
+    width: 60%;
+    height: 81%;
+    background-color: #3A7D44;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    color: #56325E;
+}
+
+.right-rectangle .btn {
+    width: 100%;
+}
+.task-box {
+    overflow-y: auto; 
+    max-height: 300px; 
+    background-color: #3A7D44;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 8px;
+}
+
+.task-card {
+    background-color: #fff;
+    padding: 15px;
+    top: 30px;
+    /* border-radius: 8px; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.task-details {
+    font-size: 16px;
+    color: #1D1E17;
+}
+
+.completed-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: 35px;
+    background-color: #DFBA14;
+    font-weight: bold;
+    color: #56325E;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.completed-btn:hover {
+    background-color: #3A7D44;
+    transform: scale(1.05);
+}
+.completed-btn.completed {
+    background-color: #3A7D44;
+    color:#fff;
+}
+
+.add-task-btn {
+    position: absolute;
+    height: 35px;
+    right: 20px;
+    padding: 12px 25px;
+    background-color: hsl(100, 30%, 65%);
+    font-weight: bold;
+    color: #56325E;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.add-task-btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.add-task-btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.6);
+}
+
+.add-categories-btn {
+    font-style: italic;
+    font-size: 16px;
+    color: #9DC08B;
+    position: absolute;
+    left: 55%;
+    top: 2%;
+    transform: translateX(-50%);
+    width: 100%;
+    display: block;
+    z-index: 10;
+}
+
+
+    /* Styles for the Add Category modal */
+    /* Modal styles */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Show modal when the 'show' class is applied */
+.modal.show {
+    display: block;
+}
+
+.modal-content {
+    background-color: #DFBA14;
+    margin: 15% auto;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.close {
+    color: red;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.full-width {
+    width: 90%;
+    padding: 2%;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Focus effect when user clicks inside */
+.full-width:focus {
+    border-color: #DF6D14; 
+    box-shadow: 0 0 5px rgba(223, 109, 20, 0.5); 
+}
+
+/* Placeholder styling */
+.full-width::placeholder {
+    color: #999; 
+    font-style: italic;
+}
+.select-width {
+    width: 95%;
+    padding: 2%;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    margin: 2%;
+}
+
+/* Focus effect when user clicks inside */
+.select-width:focus {
+    border-color: #DF6D14; 
+    box-shadow: 0 0 5px rgba(223, 109, 20, 0.5); 
+}
+
+/* Placeholder styling */
+.select-width::placeholder {
+    color: #999; 
+    font-style: italic;
+}
+.modal-buttons {
+    margin-top: 15px;
+}
+
+.modal-buttons button {
+    margin: 5px;
+    padding: 8px;
+}
+.saveBtn, .closeBtn {
+    background-color: #DF6D14; 
+    color: #56325E; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 150px; 
+    text-align: center;
+}
+/* Hover and Click Effects */
+.saveBtn:hover, .closeBtn:hover {
+    background-color: #c95f10; 
+    transform: scale(1.05); 
+}
+
+.saveBtn:active, .closeBtn:active {
+    background-color: #b2520e; 
+    transform: scale(0.98); 
+}
+
+/* Make sure buttons inside the same container are aligned properly */
+.modal-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.category-title{
+    color: #56325E;
+    align-items: flex-start;
+    display: flex;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.app-name{
+    color: #fff;
+    font-size: x-large;
+}
+
+.app-tag{
+    color: #fff;
+    font-size: small;
+    font-style: oblique;
+    font-family: cursive;
+}
+
+  /* Reset button */
+  .reset-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+    height: 35px;
+    
+  }
+  
+  /* Delete button */
+  .delete-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+    height: 35px;
+  }
+  .task-actions {
+    display: flex;
+    gap: 10px;
+    position: relative;
+  }
+  
+ /* Container to hold buttons side by side */
+.category-container {
+    display: flex;
+    align-items: center; /* Vertically center the buttons */
+    justify-content: flex-start; /* Align buttons to the left */
+    gap: 10px; /* Optional: space between the buttons */
+  }
+  
+  /* Category button styles */
+  .cat-button {
+    height: 50px;
+    padding: 12px 25px;
+    background-color: #3A7D44;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #56325E;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 200px; /* Adjust width for category buttons */
+  }
+  
+  /* Delete button styles */
+  .cat-delete-btn {
+    background: #DF6D14;
+    color: white;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 14px;
+    height: 50px;
+    width: auto;
+  }
+  
+  /* Styles for Pending Tasks button */
+  .pending-task-btn {
+    background-color: #3A7D44;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    width:100%;
+  }
+  
+  
