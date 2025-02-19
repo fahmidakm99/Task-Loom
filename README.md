@@ -1,6 +1,5 @@
 # Task loom
 # HOME PAGE
-<img width="1712" alt="Screenshot 2025-02-18 at 1 49 02 PM" src="https://github.com/user-attachments/assets/c9134f91-1188-4dbd-b7b2-21693457192b" />
 <img width="996" alt="Screenshot 2025-02-18 at 3 26 53 PM" src="https://github.com/user-attachments/assets/3812bd15-1cc1-4d8e-82ad-c7ec8e43755e" />
 
 # on click category , corresponding tasks will show
