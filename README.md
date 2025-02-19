@@ -3,6 +3,7 @@
 <img width="996" alt="Screenshot 2025-02-18 at 3 26 53 PM" src="https://github.com/user-attachments/assets/3812bd15-1cc1-4d8e-82ad-c7ec8e43755e" />
 
 # on click category , corresponding tasks will show
+![Uploading Screenshot 2025-02-19 at 9.26.30 AM.png…]()
 <img width="983" alt="Screenshot 2025-02-18 at 3 27 20 PM" src="https://github.com/user-attachments/assets/a668efc1-3794-45f3-9855-020f8ac023ff" />
 
 # add task from category
