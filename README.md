@@ -3,8 +3,6 @@
 <img width="996" alt="Screenshot 2025-02-18 at 3 26 53 PM" src="https://github.com/user-attachments/assets/3812bd15-1cc1-4d8e-82ad-c7ec8e43755e" />
 
 # on click category , corresponding tasks will show
-<img width="1104" alt="Screenshot 2025-02-18 at 1 49 18 PM" src="https://github.com/user-attachments/assets/ebda8314-888d-4d76-9f7b-f5f0aa3279d3" />
-<img width="1027" alt="Screenshot 2025-02-18 at 1 49 35 PM" src="https://github.com/user-attachments/assets/8920c43d-43dd-4b49-8dc8-d27e4b2ada80" />
 <img width="983" alt="Screenshot 2025-02-18 at 3 27 20 PM" src="https://github.com/user-attachments/assets/a668efc1-3794-45f3-9855-020f8ac023ff" />
 
 # add task from category
