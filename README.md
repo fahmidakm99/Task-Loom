@@ -10,6 +10,7 @@
 <img width="1062" alt="Screenshot 2025-02-18 at 3 26 45 PM" src="https://github.com/user-attachments/assets/1482a6fb-db3a-4cda-8791-dbcc5da8d592" />
 
 # add task from home
+<img width="1071" alt="Screenshot 2025-02-19 at 10 55 19 AM" src="https://github.com/user-attachments/assets/f7ac6362-5eb2-4be8-ad32-59ee941dfaa0" />
 
 # add category
 <img width="1038" alt="Screenshot 2025-02-18 at 3 26 18 PM" src="https://github.com/user-attachments/assets/8b70541e-6950-4e17-8580-29085f701049" />
