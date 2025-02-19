@@ -14,8 +14,6 @@
 <img width="1062" alt="Screenshot 2025-02-18 at 3 26 45 PM" src="https://github.com/user-attachments/assets/1482a6fb-db3a-4cda-8791-dbcc5da8d592" />
 
 # add category
-<img width="1019" alt="Screenshot 2025-02-18 at 1 49 55 PM" src="https://github.com/user-attachments/assets/812556f8-9067-4196-b20d-c91a24dc8af6" />
-<img width="1038" alt="Screenshot 2025-02-18 at 3 26 18 PM" src="https://github.com/user-attachments/assets/07855ebc-708e-4550-8309-9c570e2a18c2" />
 <img width="1038" alt="Screenshot 2025-02-18 at 3 26 18 PM" src="https://github.com/user-attachments/assets/8b70541e-6950-4e17-8580-29085f701049" />
 
 fire base
